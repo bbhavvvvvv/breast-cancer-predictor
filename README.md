@@ -67,6 +67,15 @@ print(predict(patient))
 - Not validated on real clinical populations.
 - Predictions come from tumor measurements only, not imaging or patient history.
 
+## Web app
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Adjust the 30 tumor measurements with sliders, load a typical benign or malignant example, or upload a CSV for batch predictions.
+
 ## License
 
 MIT
