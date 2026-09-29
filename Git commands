@@ -1,0 +1,4 @@
+mkdir breast-cancer-predictor && cd breast-cancer-predictor
+# put all the files above in here, then:
+pip install -r requirements.txt
+python breast_cancer_predictor.py     # creates the two PNGs
